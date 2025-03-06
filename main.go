@@ -456,7 +456,7 @@ func main() {
 	var acceptType string
 	var recursive bool
 
-	flag.BoolVar(&mirrorFlag, "mirror", false, "Mirror the remote directory structure")
+	//flag.BoolVar(&mirrorFlag, "mirror", false, "Mirror the remote directory structure")
 	flag.BoolVar(&convertLinks, "convert-links", false, "Convert links for offline viewing")
 	flag.StringVar(&rejectType, "reject", "", "Comma-separated list of file types to reject")
 	flag.StringVar(&acceptType, "accept", "", "Comma-separated list of file types to accept")
