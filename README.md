@@ -12,14 +12,14 @@
 
 Download a file while limiting the speed to **500KB/s**
 
-<code>./wget https://speed.hetzner.de/100MB.bin --limit 500</code>
+<code>./wget http://speedtest.tele2.net/10MB.zip --limit 500</code>
 
 ### Background Downloads
 
 - use **nohup** or **&** in a unix-base system to detach from terminal
 - use **os.StartProcess** or **exec.Command** in Golang to run in the background
 - in the terminal run
-  <code>nohup ./wget https://speed.hetzner.de/100MB.bin --limit 500 &</code>
+  <code>nohup ./wget http://speedtest.tele2.net/100MB.zip --limit 500 &</code>
 
 ### Multi-File Async Downloads
 
